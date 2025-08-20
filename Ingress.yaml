@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: nginx-ingress
   annotations:
-    kubernetes.io/ingress.class: "gce"   # Use GCP's L7 LB
+    kubernetes.io/ingress.class: "gce"
 spec:
   rules:
   - http:
